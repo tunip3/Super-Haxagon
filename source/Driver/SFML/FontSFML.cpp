@@ -1,7 +1,7 @@
-#include "Driver/SFML/FontSFML.hpp"
+#include "../../../include/Driver/SFML/FontSFML.hpp"
 
-#include "Core/Structs.hpp"
-#include "Driver/SFML/PlatformSFML.hpp"
+#include "../../../include/Core/Structs.hpp"
+#include "../../../include/Driver/SFML/PlatformSFML.hpp"
 
 #include <cmath>
 

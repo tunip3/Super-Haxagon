@@ -1,0 +1,2 @@
+x64\Debug\filemap.pri
+x64\Debug\filemap.map.txt

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6688e3ad-176a-47ea-8672-040573ba2482}</ProjectGuid>
+    <RootNamespace>WINRT</RootNamespace>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <AppContainerApplication>true</AppContainerApplication>
+    <ApplicationType>Windows Store</ApplicationType>
+    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.19041.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.17763.0</WindowsTargetPlatformMinVersion>
+    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+    <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
+    <ProjectName>SUPER-HAXAGON</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros">
+    <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
+    <PackageCertificateKeyFile>WINRT_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <GenerateTestArtifacts>True</GenerateTestArtifacts>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x64</AppxBundlePlatforms>
+    <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(GeneratedFilesDir);$(IntDir);%(AdditionalIncludeDirectories);$(ProjectDir)externals\SFML-2.5.1\include</AdditionalIncludeDirectories>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PreprocessorDefinitions>SFML_STATIC;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(ProjectDir)externals\SFML-2.5.1\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>vorbisfile.lib;vorbisenc.lib;vorbis.lib;flac.lib;ogg.lib;openal32.lib;freetype.lib;Winmm.lib.;Opengl32.lib;Gdi32.lib;User32.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;sfml-main-d.lib;sfml-graphics-s-d.lib;sfml-audio-s-d.lib;WindowsApp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LargeTile.scale-100.png" />
+    <Image Include="Assets\LargeTile.scale-125.png" />
+    <Image Include="Assets\LargeTile.scale-150.png" />
+    <Image Include="Assets\LargeTile.scale-200.png" />
+    <Image Include="Assets\LargeTile.scale-400.png" />
+    <Image Include="Assets\LockScreenLogo.scale-200.png" />
+    <Image Include="Assets\SmallTile.scale-100.png" />
+    <Image Include="Assets\SmallTile.scale-125.png" />
+    <Image Include="Assets\SmallTile.scale-150.png" />
+    <Image Include="Assets\SmallTile.scale-200.png" />
+    <Image Include="Assets\SmallTile.scale-400.png" />
+    <Image Include="Assets\SplashScreen.scale-100.png" />
+    <Image Include="Assets\SplashScreen.scale-125.png" />
+    <Image Include="Assets\SplashScreen.scale-150.png" />
+    <Image Include="Assets\SplashScreen.scale-200.png" />
+    <Image Include="Assets\SplashScreen.scale-400.png" />
+    <Image Include="Assets\Square150x150Logo.scale-100.png" />
+    <Image Include="Assets\Square150x150Logo.scale-125.png" />
+    <Image Include="Assets\Square150x150Logo.scale-150.png" />
+    <Image Include="Assets\Square150x150Logo.scale-200.png" />
+    <Image Include="Assets\Square150x150Logo.scale-400.png" />
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png" />
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png" />
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png" />
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png" />
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png" />
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-16.png" />
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-256.png" />
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-32.png" />
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-48.png" />
+    <Image Include="Assets\Square44x44Logo.scale-100.png" />
+    <Image Include="Assets\Square44x44Logo.scale-125.png" />
+    <Image Include="Assets\Square44x44Logo.scale-150.png" />
+    <Image Include="Assets\Square44x44Logo.scale-200.png" />
+    <Image Include="Assets\Square44x44Logo.scale-400.png" />
+    <Image Include="Assets\Square44x44Logo.targetsize-16.png" />
+    <Image Include="Assets\Square44x44Logo.targetsize-24.png" />
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Image Include="Assets\Square44x44Logo.targetsize-256.png" />
+    <Image Include="Assets\Square44x44Logo.targetsize-32.png" />
+    <Image Include="Assets\Square44x44Logo.targetsize-48.png" />
+    <Image Include="Assets\StoreLogo.scale-100.png" />
+    <Image Include="Assets\StoreLogo.scale-125.png" />
+    <Image Include="Assets\StoreLogo.scale-150.png" />
+    <Image Include="Assets\StoreLogo.scale-200.png" />
+    <Image Include="Assets\StoreLogo.scale-400.png" />
+    <Image Include="Assets\Wide310x150Logo.scale-100.png" />
+    <Image Include="Assets\Wide310x150Logo.scale-125.png" />
+    <Image Include="Assets\Wide310x150Logo.scale-150.png" />
+    <Image Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Image Include="Assets\Wide310x150Logo.scale-400.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\Core\Game.cpp" />
+    <ClCompile Include="..\source\Core\Main.cpp" />
+    <ClCompile Include="..\source\Core\Metadata.cpp" />
+    <ClCompile Include="..\source\Core\Structs.cpp" />
+    <ClCompile Include="..\source\Driver\SFML\AudioSFML.cpp" />
+    <ClCompile Include="..\source\Driver\SFML\FontSFML.cpp" />
+    <ClCompile Include="..\source\Driver\SFML\PlatformSFML.cpp" />
+    <ClCompile Include="..\source\Driver\SFML\PlayerMusicSFML.cpp" />
+    <ClCompile Include="..\source\Driver\SFML\PlayerSoundSFML.cpp" />
+    <ClCompile Include="..\source\Driver\Switch\AudioSwitch.cpp" />
+    <ClCompile Include="..\source\Driver\Switch\FontSwitch.cpp" />
+    <ClCompile Include="..\source\Driver\Switch\PlatformSwitch.cpp" />
+    <ClCompile Include="..\source\Driver\Switch\PlayerMusSwitch.cpp" />
+    <ClCompile Include="..\source\Driver\Switch\PlayerSfxSwitch.cpp" />
+    <ClCompile Include="..\source\Driver\Switch\RenderTarget.cpp" />
+    <ClCompile Include="..\source\Driver\Win\PlatformWin.cpp" />
+    <ClCompile Include="..\source\Factories\Level.cpp" />
+    <ClCompile Include="..\source\Factories\Pattern.cpp" />
+    <ClCompile Include="..\source\Factories\Wall.cpp" />
+    <ClCompile Include="..\source\States\Load.cpp" />
+    <ClCompile Include="..\source\States\Menu.cpp" />
+    <ClCompile Include="..\source\States\Over.cpp" />
+    <ClCompile Include="..\source\States\Play.cpp" />
+    <ClCompile Include="..\source\States\Quit.cpp" />
+    <ClCompile Include="..\source\States\Transition.cpp" />
+    <ClCompile Include="..\source\States\Win.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Core\Game.hpp" />
+    <ClInclude Include="..\include\Core\Metadata.hpp" />
+    <ClInclude Include="..\include\Core\Structs.hpp" />
+    <ClInclude Include="..\include\Core\Twist.hpp" />
+    <ClInclude Include="..\include\Driver\Audio.hpp" />
+    <ClInclude Include="..\include\Driver\Font.hpp" />
+    <ClInclude Include="..\include\Driver\Platform.hpp" />
+    <ClInclude Include="..\include\Driver\Player.hpp" />
+    <ClInclude Include="..\include\Driver\SFML\AudioSFML.hpp" />
+    <ClInclude Include="..\include\Driver\SFML\FontSFML.hpp" />
+    <ClInclude Include="..\include\Driver\SFML\PlatformSFML.hpp" />
+    <ClInclude Include="..\include\Driver\SFML\PlayerMusicSFML.hpp" />
+    <ClInclude Include="..\include\Driver\SFML\PlayerSoundSFML.hpp" />
+    <ClInclude Include="..\include\Driver\Switch\AudioSwitch.hpp" />
+    <ClInclude Include="..\include\Driver\Switch\FontSwitch.hpp" />
+    <ClInclude Include="..\include\Driver\Switch\PlatformSwitch.hpp" />
+    <ClInclude Include="..\include\Driver\Switch\PlayerMusSwitch.hpp" />
+    <ClInclude Include="..\include\Driver\Switch\PlayerSfxSwitch.hpp" />
+    <ClInclude Include="..\include\Driver\Switch\RenderTarget.hpp" />
+    <ClInclude Include="..\include\Driver\Win\PlatformWin.hpp" />
+    <ClInclude Include="..\include\Factories\Level.hpp" />
+    <ClInclude Include="..\include\Factories\Pattern.hpp" />
+    <ClInclude Include="..\include\Factories\Wall.hpp" />
+    <ClInclude Include="..\include\States\Load.hpp" />
+    <ClInclude Include="..\include\States\Menu.hpp" />
+    <ClInclude Include="..\include\States\Over.hpp" />
+    <ClInclude Include="..\include\States\Play.hpp" />
+    <ClInclude Include="..\include\States\Quit.hpp" />
+    <ClInclude Include="..\include\States\State.hpp" />
+    <ClInclude Include="..\include\States\Transition.hpp" />
+    <ClInclude Include="..\include\States\Win.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bgm\callMeKatla.ogg">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="bgm\captainCool.ogg">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="bgm\commandoSteve.ogg">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="bgm\drFinkelfracken.ogg">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="bgm\esiannoyamFoEzam.ogg">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="bgm\jackRussel.ogg">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="bgm\mazeOfMayonnaise.ogg">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="bgm\screenSaver.ogg">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="bgm\werq.ogg">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="bump-it-up-16.bcfnt">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="bump-it-up-32.bcfnt">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="levels.haxagon">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="openal32.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="WINRT_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="bump-it-up.ttf">
+      <DeploymentContent>true</DeploymentContent>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="bgm\callMeKatla.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="bgm\captainCool.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="bgm\commandoSteve.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="bgm\drFinkelfracken.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="bgm\esiannoyamFoEzam.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="bgm\jackRussel.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="bgm\mazeOfMayonnaise.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="bgm\screenSaver.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sound\begin.wav" />
+    <Media Include="sound\hexagon.wav" />
+    <Media Include="sound\level.wav" />
+    <Media Include="sound\over.wav" />
+    <Media Include="sound\select.wav" />
+    <Media Include="sound\wonderful.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,4 +1,4 @@
-#include "Driver/SFML/PlayerSoundSFML.hpp"
+#include "../../../include/Driver/SFML/PlayerSoundSFML.hpp"
 
 namespace SuperHaxagon {
 	PlayerSoundSFML::PlayerSoundSFML(std::unique_ptr<sf::Sound> sound) : _sound(std::move(sound)) {}

@@ -1,4 +1,4 @@
-#include "Driver/Switch/PlayerSfxSwitch.hpp"
+#include "../../../include/Driver/Switch/PlayerSfxSwitch.hpp"
 
 namespace SuperHaxagon {
 	PlayerSfxSwitch::PlayerSfxSwitch(Mix_Chunk* sfx) : _sfx(sfx) {}

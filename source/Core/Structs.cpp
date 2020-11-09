@@ -1,6 +1,6 @@
-#include "Core/Structs.hpp"
+#include "../../include/Core/Structs.hpp"
 
-#include "Driver/Platform.hpp"
+#include "../../include/Driver/Platform.hpp"
 
 #include <cmath>
 #include <iomanip>

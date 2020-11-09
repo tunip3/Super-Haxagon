@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>43344a4c-2bdb-43dc-a834-3ccd631d9037</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{6c472d16-5320-47f3-bdc5-7a470d151059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Driver">
+      <UniqueIdentifier>{3df83d44-73ed-459c-8580-23dd82f7ef6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Driver\Win">
+      <UniqueIdentifier>{0cfca510-2504-4a9b-84ae-0867292af5b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Core">
+      <UniqueIdentifier>{2a241192-3554-4311-91ce-2b42fa12deb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Factories">
+      <UniqueIdentifier>{a7971c9a-08b2-4f69-ab73-05e6e5858500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\States">
+      <UniqueIdentifier>{3da0b675-7027-4c99-855e-cb15e0ad56c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{5158b08c-9f2f-4cc6-a10e-ed9e44830f8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Driver">
+      <UniqueIdentifier>{5674feee-e83f-4d21-ad22-b66113c8c0f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Core">
+      <UniqueIdentifier>{1a25ba03-8136-49d2-a4b0-cc3869301b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Factories">
+      <UniqueIdentifier>{3714aff1-d26f-4369-b792-512c88df9f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\States">
+      <UniqueIdentifier>{9645517e-767c-4244-9f15-8c8105f6f90e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Driver\Win">
+      <UniqueIdentifier>{6aa8414b-866e-47b6-9e3e-1652a4188e9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Driver\SFML">
+      <UniqueIdentifier>{f921bf1e-cc95-4e57-af43-42d2785babf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Driver\SFML">
+      <UniqueIdentifier>{665cc88c-36c5-4338-af5d-9082ed81e790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Driver\Switch">
+      <UniqueIdentifier>{43b6de6d-c52a-42e6-98e2-44bee33e537b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Driver\Switch">
+      <UniqueIdentifier>{87f4c75f-d70b-44fa-99fe-3150aacee4e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-16.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-32.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-48.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-256.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\Driver\Win\PlatformWin.cpp">
+      <Filter>source\Driver\Win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Core\Game.cpp">
+      <Filter>source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Core\Main.cpp">
+      <Filter>source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Core\Metadata.cpp">
+      <Filter>source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Core\Structs.cpp">
+      <Filter>source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Factories\Level.cpp">
+      <Filter>source\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Factories\Pattern.cpp">
+      <Filter>source\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Factories\Wall.cpp">
+      <Filter>source\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\States\Load.cpp">
+      <Filter>source\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\States\Menu.cpp">
+      <Filter>source\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\States\Over.cpp">
+      <Filter>source\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\States\Play.cpp">
+      <Filter>source\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\States\Quit.cpp">
+      <Filter>source\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\States\Transition.cpp">
+      <Filter>source\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\States\Win.cpp">
+      <Filter>source\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Driver\SFML\AudioSFML.cpp">
+      <Filter>source\Driver\SFML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Driver\SFML\FontSFML.cpp">
+      <Filter>source\Driver\SFML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Driver\SFML\PlatformSFML.cpp">
+      <Filter>source\Driver\SFML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Driver\SFML\PlayerMusicSFML.cpp">
+      <Filter>source\Driver\SFML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Driver\SFML\PlayerSoundSFML.cpp">
+      <Filter>source\Driver\SFML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Driver\Switch\AudioSwitch.cpp">
+      <Filter>source\Driver\Switch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Driver\Switch\FontSwitch.cpp">
+      <Filter>source\Driver\Switch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Driver\Switch\PlatformSwitch.cpp">
+      <Filter>source\Driver\Switch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Driver\Switch\PlayerMusSwitch.cpp">
+      <Filter>source\Driver\Switch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Driver\Switch\PlayerSfxSwitch.cpp">
+      <Filter>source\Driver\Switch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Driver\Switch\RenderTarget.cpp">
+      <Filter>source\Driver\Switch</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Driver\Audio.hpp">
+      <Filter>include\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Driver\Font.hpp">
+      <Filter>include\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Driver\Platform.hpp">
+      <Filter>include\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Driver\Player.hpp">
+      <Filter>include\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Driver\Win\PlatformWin.hpp">
+      <Filter>include\Driver\Win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Driver\SFML\AudioSFML.hpp">
+      <Filter>include\Driver\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Driver\SFML\FontSFML.hpp">
+      <Filter>include\Driver\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Driver\SFML\PlatformSFML.hpp">
+      <Filter>include\Driver\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Driver\SFML\PlayerMusicSFML.hpp">
+      <Filter>include\Driver\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Driver\SFML\PlayerSoundSFML.hpp">
+      <Filter>include\Driver\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Core\Game.hpp">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Core\Metadata.hpp">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Core\Structs.hpp">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Core\Twist.hpp">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Factories\Level.hpp">
+      <Filter>include\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Factories\Pattern.hpp">
+      <Filter>include\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Factories\Wall.hpp">
+      <Filter>include\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\States\Load.hpp">
+      <Filter>include\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\States\Menu.hpp">
+      <Filter>include\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\States\Over.hpp">
+      <Filter>include\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\States\Play.hpp">
+      <Filter>include\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\States\Quit.hpp">
+      <Filter>include\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\States\State.hpp">
+      <Filter>include\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\States\Transition.hpp">
+      <Filter>include\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\States\Win.hpp">
+      <Filter>include\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Driver\Switch\AudioSwitch.hpp">
+      <Filter>include\Driver\Switch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Driver\Switch\FontSwitch.hpp">
+      <Filter>include\Driver\Switch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Driver\Switch\PlatformSwitch.hpp">
+      <Filter>include\Driver\Switch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Driver\Switch\PlayerMusSwitch.hpp">
+      <Filter>include\Driver\Switch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Driver\Switch\PlayerSfxSwitch.hpp">
+      <Filter>include\Driver\Switch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Driver\Switch\RenderTarget.hpp">
+      <Filter>include\Driver\Switch</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="openal32.dll" />
+    <None Include="bump-it-up-32.bcfnt" />
+    <None Include="bump-it-up-16.bcfnt" />
+    <None Include="levels.haxagon" />
+    <None Include="bgm\callMeKatla.ogg" />
+    <None Include="bgm\captainCool.ogg" />
+    <None Include="bgm\commandoSteve.ogg" />
+    <None Include="bgm\drFinkelfracken.ogg" />
+    <None Include="bgm\esiannoyamFoEzam.ogg" />
+    <None Include="bgm\jackRussel.ogg" />
+    <None Include="bgm\mazeOfMayonnaise.ogg" />
+    <None Include="bgm\screenSaver.ogg" />
+    <None Include="bgm\werq.ogg" />
+    <None Include="WINRT_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="bump-it-up.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="bgm\callMeKatla.txt" />
+    <Text Include="bgm\captainCool.txt" />
+    <Text Include="bgm\commandoSteve.txt" />
+    <Text Include="bgm\drFinkelfracken.txt" />
+    <Text Include="bgm\esiannoyamFoEzam.txt" />
+    <Text Include="bgm\jackRussel.txt" />
+    <Text Include="bgm\mazeOfMayonnaise.txt" />
+    <Text Include="bgm\screenSaver.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sound\begin.wav" />
+    <Media Include="sound\hexagon.wav" />
+    <Media Include="sound\level.wav" />
+    <Media Include="sound\over.wav" />
+    <Media Include="sound\select.wav" />
+    <Media Include="sound\wonderful.wav" />
+  </ItemGroup>
+</Project>

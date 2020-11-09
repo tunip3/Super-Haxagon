@@ -1,7 +1,7 @@
 #ifndef SUPER_HAXAGON_PLAYER_SFX_SWITCH_H
 #define SUPER_HAXAGON_PLAYER_SFX_SWITCH_H
 
-#include "Driver/Player.hpp"
+#include "../../Driver/Player.hpp"
 
 #include <SDL2/SDL_mixer.h>
 

@@ -1,11 +1,11 @@
-#include "States/Transition.hpp"
+#include "../../include/States/Transition.hpp"
 
-#include "Core/Game.hpp"
-#include "Driver/Platform.hpp"
-#include "Driver/Font.hpp"
-#include "Factories/Level.hpp"
-#include "States/Play.hpp"
-#include "States/Quit.hpp"
+#include "../../include/Core/Game.hpp"
+#include "../../include/Driver/Platform.hpp"
+#include "../../include/Driver/Font.hpp"
+#include "../../include/Factories/Level.hpp"
+#include "../../include/States/Play.hpp"
+#include "../../include/States/Quit.hpp"
 
 namespace SuperHaxagon {
 

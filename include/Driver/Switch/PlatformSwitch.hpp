@@ -1,9 +1,9 @@
 #ifndef SUPER_HAXAGON_PLATFORM_SWITCH_HPP
 #define SUPER_HAXAGON_PLATFORM_SWITCH_HPP
 
-#include "Driver/Platform.hpp"
+#include "../../Driver/Platform.hpp"
 
-#include "RenderTarget.hpp"
+#include "../../RenderTarget.hpp"
 
 #include <EGL/egl.h>
 #include <switch.h>

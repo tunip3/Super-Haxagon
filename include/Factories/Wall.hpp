@@ -1,7 +1,7 @@
 #ifndef SUPER_HAXAGON_WALL_HPP
 #define SUPER_HAXAGON_WALL_HPP
 
-#include "Core/Structs.hpp"
+#include "../Core/Structs.hpp"
 
 #include <vector>
 

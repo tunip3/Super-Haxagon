@@ -1,4 +1,4 @@
-#include "Factories/Wall.hpp"
+#include "../../include/Factories/Wall.hpp"
 
 #include <cmath>
 

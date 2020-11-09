@@ -1,15 +1,15 @@
-#include "States/Play.hpp"
+#include "../../include/States/Play.hpp"
 
-#include "Core/Game.hpp"
-#include "Core/Metadata.hpp"
-#include "Driver/Font.hpp"
-#include "Driver/Platform.hpp"
-#include "Driver/Player.hpp"
-#include "Factories/Level.hpp"
-#include "States/Over.hpp"
-#include "States/Quit.hpp"
-#include "States/Transition.hpp"
-#include "States/Win.hpp"
+#include "../../include/Core/Game.hpp"
+#include "../../include/Core/Metadata.hpp"
+#include "../../include/Driver/Font.hpp"
+#include "../../include/Driver/Platform.hpp"
+#include "../../include/Driver/Player.hpp"
+#include "../../include/Factories/Level.hpp"
+#include "../../include/States/Over.hpp"
+#include "../../include/States/Quit.hpp"
+#include "../../include/States/Transition.hpp"
+#include "../../include/States/Win.hpp"
 
 #include <cmath>
 

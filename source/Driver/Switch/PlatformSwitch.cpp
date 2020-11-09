@@ -1,9 +1,9 @@
-#include "Driver/Switch/PlatformSwitch.hpp"
+#include "../../../include/Driver/Switch/PlatformSwitch.hpp"
 
-#include "Core/Twist.hpp"
-#include "Driver/Switch/AudioSwitch.hpp"
-#include "Driver/Switch/FontSwitch.hpp"
-#include "Driver/Switch/PlayerMusSwitch.hpp"
+#include "../../../include/Core/Twist.hpp"
+#include "../../../include/Driver/Switch/AudioSwitch.hpp"
+#include "../../../include/Driver/Switch/FontSwitch.hpp"
+#include "../../../include/Driver/Switch/PlayerMusSwitch.hpp"
 
 #include <EGL/eglext.h>
 #include <SDL2/SDL.h>

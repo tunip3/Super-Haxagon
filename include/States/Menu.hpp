@@ -3,7 +3,7 @@
 
 #include "State.hpp"
 
-#include "Core/Structs.hpp"
+#include "../Core/Structs.hpp"
 
 #include <map>
 #include <vector>

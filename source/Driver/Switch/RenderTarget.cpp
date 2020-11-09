@@ -1,6 +1,6 @@
-#include "Driver/Switch/RenderTarget.hpp"
+#include "../../../include/Driver/Switch/RenderTarget.hpp"
 
-#include "Driver/Platform.hpp"
+#include "../../../include/Driver/Platform.hpp"
 
 #include <algorithm>
 

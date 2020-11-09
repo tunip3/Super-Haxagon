@@ -1,6 +1,6 @@
-#include "Driver/Switch/FontSwitch.hpp"
+#include "../../../include/Driver/Switch/FontSwitch.hpp"
 
-#include "Driver/Switch/PlatformSwitch.hpp"
+#include "../../../include/Driver/Switch/PlatformSwitch.hpp"
 
 #include <ft2build.h>
 #include FT_FREETYPE_H

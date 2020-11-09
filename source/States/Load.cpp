@@ -1,11 +1,11 @@
-#include "States/Load.hpp"
+#include "../../include/States/Load.hpp"
 
-#include "Core/Game.hpp"
-#include "Driver/Platform.hpp"
-#include "Factories/Level.hpp"
-#include "Factories/Pattern.hpp"
-#include "States/Menu.hpp"
-#include "States/Quit.hpp"
+#include "../../include/Core/Game.hpp"
+#include "../../include/Driver/Platform.hpp"
+#include "../../include/Factories/Level.hpp"
+#include "../../include/Factories/Pattern.hpp"
+#include "../../include/States/Menu.hpp"
+#include "../../include/States/Quit.hpp"
 
 #include <memory>
 #include <fstream>
@@ -105,7 +105,8 @@ namespace SuperHaxagon {
 		std::vector<std::pair<LocLevel, std::string>> locations;
 		locations.emplace_back(std::pair<LocLevel, std::string>(LocLevel::INTERNAL, _platform.getPathRom("/levels.haxagon")));
 
-		auto files = std::filesystem::directory_iterator(_platform.getPath("/"));
+		std::string tempuwu = _platform.getPath("/");
+		auto files = std::filesystem::directory_iterator(tempuwu);
 		for (const auto& file : files) {
 			if (file.path().extension() != ".haxagon") continue;
 			_platform.message(Dbg::INFO, "load", "found " + file.path().string());

@@ -1,0 +1,2 @@
+MainPackage=D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\x64\Debug\WINRT\WINRT_1.0.0.0_x64_Debug.msix
+SymbolPackage=D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\x64\Debug\Symbols\WINRT_1.0.0.0_x64_Debug.appxsym

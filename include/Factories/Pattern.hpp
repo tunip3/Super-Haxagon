@@ -1,7 +1,7 @@
 #ifndef SUPER_HAXAGON_PATTERN_HPP
 #define SUPER_HAXAGON_PATTERN_HPP
 
-#include "Factories/Wall.hpp"
+#include "Wall.hpp"
 
 #include <vector>
 #include <string>

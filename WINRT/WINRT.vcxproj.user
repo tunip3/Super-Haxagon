@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ShowAllFiles>false</ShowAllFiles>
+    <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>x64</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+    <Source>D:\Users\t3\source\repos\tunip3\Super-Haxagon\media\icon-full.png</Source>
+    <SmallTileSource>D:\Users\t3\source\repos\tunip3\Super-Haxagon\media\icon-full.png</SmallTileSource>
+    <MediumTileSource>D:\Users\t3\source\repos\tunip3\Super-Haxagon\media\icon-full.png</MediumTileSource>
+    <WideTileSource>D:\Users\t3\source\repos\tunip3\Super-Haxagon\media\icon-full.png</WideTileSource>
+    <LargeTileSource>D:\Users\t3\source\repos\tunip3\Super-Haxagon\media\icon-full.png</LargeTileSource>
+    <AppIconSource>D:\Users\t3\source\repos\tunip3\Super-Haxagon\media\icon-full.png</AppIconSource>
+    <SplashScreenSource>D:\Users\t3\source\repos\tunip3\Super-Haxagon\media\banner.png</SplashScreenSource>
+    <PackageLogoSource>D:\Users\t3\source\repos\tunip3\Super-Haxagon\media\icon-full.png</PackageLogoSource>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
+    <DebuggerMachineName>XBOXONE</DebuggerMachineName>
+  </PropertyGroup>
+</Project>

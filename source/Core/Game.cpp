@@ -1,12 +1,12 @@
-#include "Core/Game.hpp"
+#include "../../include/Core/Game.hpp"
 
-#include "Core/Metadata.hpp"
-#include "Core/Twist.hpp"
-#include "Driver/Font.hpp"
-#include "Driver/Platform.hpp"
-#include "Factories/Level.hpp"
-#include "Factories/Pattern.hpp"
-#include "States/Load.hpp"
+#include "../../include/Core/Metadata.hpp"
+#include "../../include/Core/Twist.hpp"
+#include "../../include/Driver/Font.hpp"
+#include "../../include/Driver/Platform.hpp"
+#include "../../include/Factories/Level.hpp"
+#include "../../include/Factories/Pattern.hpp"
+#include "../../include/States/Load.hpp"
 
 #include <cmath>
 

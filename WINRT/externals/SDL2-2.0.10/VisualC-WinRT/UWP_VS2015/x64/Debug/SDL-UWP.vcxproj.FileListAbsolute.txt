@@ -1,0 +1,17 @@
+D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\x64\Debug\SDL-UWP\SDL2.pri
+D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\externals\SDL2-2.0.10\VisualC-WinRT\UWP_VS2015\x64\Debug\SDL-UWP.vcxprojAssemblyReference.cache
+D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\externals\SDL2-2.0.10\VisualC-WinRT\UWP_VS2015\x64\Debug\priconfig.xml
+D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\externals\SDL2-2.0.10\VisualC-WinRT\UWP_VS2015\x64\Debug\priconfig.xml.intermediate
+D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\externals\SDL2-2.0.10\VisualC-WinRT\UWP_VS2015\x64\Debug\unfiltered.layout.resfiles
+D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\externals\SDL2-2.0.10\VisualC-WinRT\UWP_VS2015\x64\Debug\unfiltered.layout.resfiles.intermediate
+D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\externals\SDL2-2.0.10\VisualC-WinRT\UWP_VS2015\x64\Debug\filtered.layout.resfiles
+D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\externals\SDL2-2.0.10\VisualC-WinRT\UWP_VS2015\x64\Debug\filtered.layout.resfiles.intermediate
+D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\externals\SDL2-2.0.10\VisualC-WinRT\UWP_VS2015\x64\Debug\excluded.layout.resfiles
+D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\externals\SDL2-2.0.10\VisualC-WinRT\UWP_VS2015\x64\Debug\excluded.layout.resfiles.intermediate
+D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\externals\SDL2-2.0.10\VisualC-WinRT\UWP_VS2015\x64\Debug\resources.resfiles
+D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\externals\SDL2-2.0.10\VisualC-WinRT\UWP_VS2015\x64\Debug\resources.resfiles.intermediate
+D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\externals\SDL2-2.0.10\VisualC-WinRT\UWP_VS2015\x64\Debug\pri.resfiles
+D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\externals\SDL2-2.0.10\VisualC-WinRT\UWP_VS2015\x64\Debug\pri.resfiles.intermediate
+D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\externals\SDL2-2.0.10\VisualC-WinRT\UWP_VS2015\x64\Debug\qualifiers.txt
+D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\externals\SDL2-2.0.10\VisualC-WinRT\UWP_VS2015\x64\Debug\qualifiers.txt.intermediate
+D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\externals\SDL2-2.0.10\VisualC-WinRT\UWP_VS2015\x64\Debug\MultipleQualifiersPerDimensionFound.txt

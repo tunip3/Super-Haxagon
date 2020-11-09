@@ -1,8 +1,8 @@
 #ifndef SUPER_HAXAGON_LEVEL_HPP
 #define SUPER_HAXAGON_LEVEL_HPP
 
-#include "Core/Structs.hpp"
-#include "Factories/Pattern.hpp"
+#include "../Core/Structs.hpp"
+#include "../Factories/Pattern.hpp"
 
 #include <memory>
 #include <string>

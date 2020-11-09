@@ -1,7 +1,7 @@
 #ifndef SUPER_HAXAGON_RENDER_TARGET_HPP
 #define SUPER_HAXAGON_RENDER_TARGET_HPP
 
-#include "Core/Structs.hpp"
+#include "../../Core/Structs.hpp"
 
 #include <glad/glad.h>
 

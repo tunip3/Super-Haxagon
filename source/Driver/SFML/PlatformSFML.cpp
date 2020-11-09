@@ -1,9 +1,9 @@
-#include "Driver/SFML/PlatformSFML.hpp"
+#include "../../../include/Driver/SFML/PlatformSFML.hpp"
 
-#include "Core/Structs.hpp"
-#include "Driver/SFML/AudioSFML.hpp"
-#include "Driver/SFML/FontSFML.hpp"
-#include "Driver/SFML/PlayerSoundSFML.hpp"
+#include "../../../include/Core/Structs.hpp"
+#include "../../../include/Driver/SFML/AudioSFML.hpp"
+#include "../../../include/Driver/SFML/FontSFML.hpp"
+#include "../../../include/Driver/SFML/PlayerSoundSFML.hpp"
 
 #include <array>
 #include <string>

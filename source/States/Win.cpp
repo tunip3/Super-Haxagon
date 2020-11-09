@@ -1,12 +1,12 @@
-#include "States/Win.hpp"
+#include "../../include/States/Win.hpp"
 
-#include "Core/Game.hpp"
-#include "Core/Metadata.hpp"
-#include "Driver/Font.hpp"
-#include "Driver/Platform.hpp"
-#include "Factories/Level.hpp"
-#include "States/Over.hpp"
-#include "States/Quit.hpp"
+#include "../../include/Core/Game.hpp"
+#include "../../include/Core/Metadata.hpp"
+#include "../../include/Driver/Font.hpp"
+#include "../../include/Driver/Platform.hpp"
+#include "../../include/Factories/Level.hpp"
+#include "../../include/States/Over.hpp"
+#include "../../include/States/Quit.hpp"
 
 namespace SuperHaxagon {
 	static constexpr int LEVEL_VOID = 6;

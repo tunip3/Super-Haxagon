@@ -1,7 +1,7 @@
-#include "Factories/Pattern.hpp"
+#include "../../include/Factories/Pattern.hpp"
 
-#include "Core/Twist.hpp"
-#include "Driver/Platform.hpp"
+#include "../../include/Core/Twist.hpp"
+#include "../../include/Driver/Platform.hpp"
 
 namespace SuperHaxagon {
 	const char* PatternFactory::PATTERN_HEADER = "PTN1.1";

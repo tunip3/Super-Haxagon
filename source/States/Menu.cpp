@@ -1,12 +1,12 @@
-#include "States/Menu.hpp"
+#include "../../include/States/Menu.hpp"
 
-#include "Core/Game.hpp"
-#include "Core/Metadata.hpp"
-#include "Driver/Font.hpp"
-#include "Driver/Platform.hpp"
-#include "Factories/Level.hpp"
-#include "States/Play.hpp"
-#include "States/Quit.hpp"
+#include "../../include/Core/Game.hpp"
+#include "../../include/Core/Metadata.hpp"
+#include "../../include/Driver/Font.hpp"
+#include "../../include/Driver/Platform.hpp"
+#include "../../include/Factories/Level.hpp"
+#include "../../include/States/Play.hpp"
+#include "../../include/States/Quit.hpp"
 
 #include <array>
 #include <algorithm>

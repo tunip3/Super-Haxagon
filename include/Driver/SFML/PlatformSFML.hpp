@@ -1,9 +1,10 @@
 #ifndef SUPER_HAXAGON_PLATFORM_SFML_HPP
 #define SUPER_HAXAGON_PLATFORM_SFML_HPP
 
-#include "Driver/Platform.hpp"
+#include "../Platform.hpp"
 
 #include <SFML/Graphics.hpp>
+#include <SFML/Window/VideoMode.hpp>
 
 #include <deque>
 

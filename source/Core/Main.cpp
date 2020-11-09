@@ -1,12 +1,12 @@
-#include "Core/Game.hpp"
-#include "Driver/Platform.hpp" 
+#include "../../include/Core/Game.hpp"
+#include "../../include/Driver/Platform.hpp" 
 
 #if defined _3DS
 #include "Driver/3DS/Platform3DS.hpp"
 #elif defined __SWITCH__
 #include "Driver/Switch/PlatformSwitch.hpp"
 #elif defined _WIN64 || defined __CYGWIN__
-#include "Driver/Win/PlatformWin.hpp"
+#include "../../include/Driver/Win/PlatformWin.hpp"
 #elif defined __linux__
 #include "Driver/Linux/PlatformLinux.hpp"
 #else

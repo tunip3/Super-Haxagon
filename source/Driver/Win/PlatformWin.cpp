@@ -1,30 +1,31 @@
-#include "Driver/Win/PlatformWin.hpp"
+#include "../../../include/Driver/Win/PlatformWin.hpp"
 
-#include "Core/Twist.hpp"
+#include "../../../include/Core/Twist.hpp"
 
 #include <direct.h>
 #include <iostream>
 #include <windows.h>
+#include <filesystem>
 
 namespace SuperHaxagon {
 	PlatformWin::PlatformWin(const Dbg dbg) : PlatformSFML(dbg, sf::VideoMode(
 		static_cast<int>(sf::VideoMode::getDesktopMode().width * 0.75),
 		static_cast<int>(sf::VideoMode::getDesktopMode().height * 0.75)
 	)) {
-		SetForegroundWindow(getWindow().getSystemHandle());
-		_mkdir(".\\sdmc");
+		//SetForegroundWindow(getWindow().getSystemHandle());
+		//_mkdir(".\\sdmc");
 	}
 
 	std::string PlatformWin::getPath(const std::string& partial) {
 		auto path = partial;
 		std::replace(path.begin(), path.end(), '/', '\\');
-		return std::string(".\\sdmc") + path;
+		return std::string(std::filesystem::current_path().string()) + path;
 	}
 
 	std::string PlatformWin::getPathRom(const std::string& partial) {
 		auto path = partial;
 		std::replace(path.begin(), path.end(), '/', '\\');
-		return std::string(".\\romfs") + path;
+		return std::string(std::filesystem::current_path().string()) + path;
 	}
 
 	void PlatformWin::message(const Dbg dbg, const std::string& where, const std::string& message) {
@@ -34,7 +35,7 @@ namespace SuperHaxagon {
 			std::cout << "[win:warn] " + where + ": " + message << std::endl;
 		} else if (dbg == Dbg::FATAL) {
 			std::cerr << "[win:fatal] " + where + ": " + message << std::endl;
-			MessageBox(nullptr, (where + ": " + message).c_str(), "A fatal error occurred!", MB_OK);
+			//MessageBox(nullptr, (where + ": " + message).c_str(), "A fatal error occurred!", MB_OK);
 		}
 	}
 

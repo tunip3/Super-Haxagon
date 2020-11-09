@@ -1,0 +1,2 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(492,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (WINRT.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  WINRT.vcxproj -> D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\x64\Debug\WINRT\SUPER-HAXAGON.exe
