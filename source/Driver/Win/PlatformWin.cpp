@@ -19,7 +19,8 @@ namespace SuperHaxagon {
 	std::string PlatformWin::getPath(const std::string& partial) {
 		auto path = partial;
 		std::replace(path.begin(), path.end(), '/', '\\');
-		return std::string(std::filesystem::current_path().string()) + path;
+		auto test = Windows::Storage::ApplicationData::Current->LocalFolder->Path;
+		return std::string(test->Begin(), test->End()) + path;
 	}
 
 	std::string PlatformWin::getPathRom(const std::string& partial) {

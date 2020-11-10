@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\x64\Debug\WINRT\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-09T21:02:22.352</Modified>
+      <Modified>2020-11-10T19:43:43.132</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\x64\Debug\WINRT\SUPER-HAXAGON.exe">
       <PackagePath>SUPER-HAXAGON.exe</PackagePath>
-      <Modified>2020-11-09T20:26:26.865</Modified>
+      <Modified>2020-11-10T21:20:20.203</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\x64\Debug\WINRT\WINRT.winmd">
       <PackagePath>WINRT.winmd</PackagePath>
@@ -413,7 +413,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\x64\Debug\WINRT\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-11-09T21:02:22.033</Modified>
+      <Modified>2020-11-10T19:43:43.019</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

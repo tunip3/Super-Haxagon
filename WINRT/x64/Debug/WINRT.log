@@ -1,2 +1,44 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(492,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (WINRT.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  PlatformWin.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\include\xstring(2448,23): warning C4244: 'argument': conversion from 'const wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\include\xstring(2459): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_InIt>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _InIt=const wchar_t *,
+              _Iter=const wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\include\xstring(2459): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_InIt>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _InIt=const wchar_t *,
+              _Iter=const wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\include\xstring(2439): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_InIt>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _InIt=const wchar_t *,
+              _Iter=const wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\include\xstring(2439): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_InIt>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _InIt=const wchar_t *,
+              _Iter=const wchar_t *
+          ]
+D:\Users\t3\source\repos\tunip3\Super-Haxagon\source\Driver\Win\PlatformWin.cpp(25): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<const wchar_t*,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Iter=const wchar_t *,
+              _Alloc=std::allocator<char>
+          ]
+D:\Users\t3\source\repos\tunip3\Super-Haxagon\source\Driver\Win\PlatformWin.cpp(25): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<const wchar_t*,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Iter=const wchar_t *,
+              _Alloc=std::allocator<char>
+          ]
   WINRT.vcxproj -> D:\Users\t3\source\repos\tunip3\Super-Haxagon\WINRT\x64\Debug\WINRT\SUPER-HAXAGON.exe

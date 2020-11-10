@@ -252,12 +252,6 @@
     <ClCompile Include="..\source\Driver\SFML\PlatformSFML.cpp" />
     <ClCompile Include="..\source\Driver\SFML\PlayerMusicSFML.cpp" />
     <ClCompile Include="..\source\Driver\SFML\PlayerSoundSFML.cpp" />
-    <ClCompile Include="..\source\Driver\Switch\AudioSwitch.cpp" />
-    <ClCompile Include="..\source\Driver\Switch\FontSwitch.cpp" />
-    <ClCompile Include="..\source\Driver\Switch\PlatformSwitch.cpp" />
-    <ClCompile Include="..\source\Driver\Switch\PlayerMusSwitch.cpp" />
-    <ClCompile Include="..\source\Driver\Switch\PlayerSfxSwitch.cpp" />
-    <ClCompile Include="..\source\Driver\Switch\RenderTarget.cpp" />
     <ClCompile Include="..\source\Driver\Win\PlatformWin.cpp" />
     <ClCompile Include="..\source\Factories\Level.cpp" />
     <ClCompile Include="..\source\Factories\Pattern.cpp" />
@@ -284,12 +278,6 @@
     <ClInclude Include="..\include\Driver\SFML\PlatformSFML.hpp" />
     <ClInclude Include="..\include\Driver\SFML\PlayerMusicSFML.hpp" />
     <ClInclude Include="..\include\Driver\SFML\PlayerSoundSFML.hpp" />
-    <ClInclude Include="..\include\Driver\Switch\AudioSwitch.hpp" />
-    <ClInclude Include="..\include\Driver\Switch\FontSwitch.hpp" />
-    <ClInclude Include="..\include\Driver\Switch\PlatformSwitch.hpp" />
-    <ClInclude Include="..\include\Driver\Switch\PlayerMusSwitch.hpp" />
-    <ClInclude Include="..\include\Driver\Switch\PlayerSfxSwitch.hpp" />
-    <ClInclude Include="..\include\Driver\Switch\RenderTarget.hpp" />
     <ClInclude Include="..\include\Driver\Win\PlatformWin.hpp" />
     <ClInclude Include="..\include\Factories\Level.hpp" />
     <ClInclude Include="..\include\Factories\Pattern.hpp" />

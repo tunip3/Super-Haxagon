@@ -273,24 +273,6 @@
     <ClCompile Include="..\source\Driver\SFML\PlayerSoundSFML.cpp">
       <Filter>source\Driver\SFML</Filter>
     </ClCompile>
-    <ClCompile Include="..\source\Driver\Switch\AudioSwitch.cpp">
-      <Filter>source\Driver\Switch</Filter>
-    </ClCompile>
-    <ClCompile Include="..\source\Driver\Switch\FontSwitch.cpp">
-      <Filter>source\Driver\Switch</Filter>
-    </ClCompile>
-    <ClCompile Include="..\source\Driver\Switch\PlatformSwitch.cpp">
-      <Filter>source\Driver\Switch</Filter>
-    </ClCompile>
-    <ClCompile Include="..\source\Driver\Switch\PlayerMusSwitch.cpp">
-      <Filter>source\Driver\Switch</Filter>
-    </ClCompile>
-    <ClCompile Include="..\source\Driver\Switch\PlayerSfxSwitch.cpp">
-      <Filter>source\Driver\Switch</Filter>
-    </ClCompile>
-    <ClCompile Include="..\source\Driver\Switch\RenderTarget.cpp">
-      <Filter>source\Driver\Switch</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Driver\Audio.hpp">
@@ -367,24 +349,6 @@
     </ClInclude>
     <ClInclude Include="..\include\States\Win.hpp">
       <Filter>include\States</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\Driver\Switch\AudioSwitch.hpp">
-      <Filter>include\Driver\Switch</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\Driver\Switch\FontSwitch.hpp">
-      <Filter>include\Driver\Switch</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\Driver\Switch\PlatformSwitch.hpp">
-      <Filter>include\Driver\Switch</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\Driver\Switch\PlayerMusSwitch.hpp">
-      <Filter>include\Driver\Switch</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\Driver\Switch\PlayerSfxSwitch.hpp">
-      <Filter>include\Driver\Switch</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\Driver\Switch\RenderTarget.hpp">
-      <Filter>include\Driver\Switch</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

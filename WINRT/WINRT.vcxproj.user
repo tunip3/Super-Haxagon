@@ -18,5 +18,6 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
     <DebuggerMachineName>XBOXONE</DebuggerMachineName>
+    <DebuggerType>NativeOnly</DebuggerType>
   </PropertyGroup>
 </Project>
